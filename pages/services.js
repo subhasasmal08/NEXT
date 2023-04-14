@@ -2,7 +2,7 @@ import commonStyle from "../styles/common.module.css"
 import { useRouter } from 'next/router'
 
 
-export default function IndexPage() {
+export default function ServicesPage() {
   const router = useRouter()
 
   return <div> 
@@ -15,10 +15,10 @@ export default function IndexPage() {
             <button onClick={()=> router.push("./contact")} className={commonStyle.button_hereus}>HERE US NOW!</button>
           </div>
         </div>
-        <p className={commonStyle.nav_data}> Home page</p>
-
-        </div>
+        <p className={commonStyle.nav_data}> Services page</p>
+</div>
       </div>;
   }
 
 
+  
