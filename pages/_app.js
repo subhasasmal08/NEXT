@@ -23,7 +23,6 @@ function MyApp({ Component, pageProps }) {
       <div className={`${styles.app_main_wrapper} ${inter.className}`}>
       <AppNavbar />
       {/* <Image src={bg} /> */}
-     <p className={styles.header}> AS/SO </p>
       <Component {...pageProps} />
       </div>
      

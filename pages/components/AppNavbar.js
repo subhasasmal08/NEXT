@@ -12,8 +12,11 @@ export default function AppNavbar() {
 
   return (
     <div>
-      <nav>
+      <nav className={navbarStyle.navbar}>
+      <p className={navbarStyle.header}> AS/SO </p>
+
         <ul className={navbarStyle.navbar_ul}>
+
           <div
             onClick={() => setActiveState("/")}
             className={

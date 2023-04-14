@@ -1,12 +1,17 @@
-
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
 
 .navbar_ul{
     display: flex;
-    justify-content: space-around;
+    gap: 1vw;
+    align-items: center;
+    /* justify-content: space-around;
     flex: 1;
     float: right;
     gap: 1vw;
-    margin-right: 5vw;
+    margin-right: 5vw; */
 }
 .navbar_title{
     /* background: #ffff;
@@ -23,12 +28,15 @@
     display: flex;
     justify-content: center;
     opacity: 4;
+    height: 1vw;
+    align-items: center;
 }
 
 .navbar_title a{
     color: #fff;
     opacity: 1;
     font-weight: 400;
+    
 }
 .app_main_wrapper{
     background-image:url( "../assets/background.jpg");
@@ -40,9 +48,9 @@
     font-weight: 600;
     font-size: 2vw;
     color: #fff;
-    position: absolute;
+    /* position: absolute;
     top: -2%;
-    left: 5%;
+    left: 5%; */
 }
 .active{
     background-color: #cc2a28;
